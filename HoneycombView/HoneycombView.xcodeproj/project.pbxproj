@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5ACBEC1BFE058E00290B64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACBEB1BFE058E00290B64 /* AppDelegate.swift */; };
+		2A5ACBEE1BFE058E00290B64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACBED1BFE058E00290B64 /* ViewController.swift */; };
+		2A5ACBF11BFE058E00290B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5ACBEF1BFE058E00290B64 /* Main.storyboard */; };
+		2A5ACBF31BFE058E00290B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5ACBF21BFE058E00290B64 /* Assets.xcassets */; };
+		2A5ACBF61BFE058E00290B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5ACBF41BFE058E00290B64 /* LaunchScreen.storyboard */; };
+		2A5ACC011BFE058E00290B64 /* HoneycombViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACC001BFE058E00290B64 /* HoneycombViewTests.swift */; };
+		2A5ACC0C1BFE058E00290B64 /* HoneycombViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACC0B1BFE058E00290B64 /* HoneycombViewUITests.swift */; };
+		2A5ACC1A1BFE07AB00290B64 /* HexagonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACC191BFE07AB00290B64 /* HexagonCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2A5ACC1C1BFE080100290B64 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACC1B1BFE080100290B64 /* HexagonView.swift */; settings = {ASSET_TAGS = (); }; };
+		2A5ACC1E1BFE0DA500290B64 /* HexagonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5ACC1D1BFE0DA500290B64 /* HexagonCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2A5ACC221BFF036A00290B64 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ACC211BFF036A00290B64 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A5ACBFD1BFE058E00290B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A5ACBE01BFE058E00290B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5ACBE71BFE058E00290B64;
+			remoteInfo = HoneycombView;
+		};
+		2A5ACC081BFE058E00290B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A5ACBE01BFE058E00290B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5ACBE71BFE058E00290B64;
+			remoteInfo = HoneycombView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5ACBE81BFE058E00290B64 /* HoneycombView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneycombView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5ACBEB1BFE058E00290B64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A5ACBED1BFE058E00290B64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A5ACBF01BFE058E00290B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A5ACBF21BFE058E00290B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5ACBF51BFE058E00290B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A5ACBF71BFE058E00290B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5ACBFC1BFE058E00290B64 /* HoneycombViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneycombViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5ACC001BFE058E00290B64 /* HoneycombViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombViewTests.swift; sourceTree = "<group>"; };
+		2A5ACC021BFE058E00290B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5ACC071BFE058E00290B64 /* HoneycombViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneycombViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5ACC0B1BFE058E00290B64 /* HoneycombViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombViewUITests.swift; sourceTree = "<group>"; };
+		2A5ACC0D1BFE058E00290B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5ACC191BFE07AB00290B64 /* HexagonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonCell.swift; sourceTree = "<group>"; };
+		2A5ACC1B1BFE080100290B64 /* HexagonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		2A5ACC1D1BFE0DA500290B64 /* HexagonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HexagonCell.xib; sourceTree = "<group>"; };
+		2A5ACC211BFF036A00290B64 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5ACBE51BFE058E00290B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACBF91BFE058E00290B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACC041BFE058E00290B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5ACBDF1BFE058E00290B64 = {
+			isa = PBXGroup;
+			children = (
+				2A5ACBEA1BFE058E00290B64 /* HoneycombView */,
+				2A5ACBFF1BFE058E00290B64 /* HoneycombViewTests */,
+				2A5ACC0A1BFE058E00290B64 /* HoneycombViewUITests */,
+				2A5ACBE91BFE058E00290B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5ACBE91BFE058E00290B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ACBE81BFE058E00290B64 /* HoneycombView.app */,
+				2A5ACBFC1BFE058E00290B64 /* HoneycombViewTests.xctest */,
+				2A5ACC071BFE058E00290B64 /* HoneycombViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5ACBEA1BFE058E00290B64 /* HoneycombView */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ACBEB1BFE058E00290B64 /* AppDelegate.swift */,
+				2A5ACBED1BFE058E00290B64 /* ViewController.swift */,
+				2A5ACC211BFF036A00290B64 /* DetailViewController.swift */,
+				2A5ACC1D1BFE0DA500290B64 /* HexagonCell.xib */,
+				2A5ACC191BFE07AB00290B64 /* HexagonCell.swift */,
+				2A5ACC1B1BFE080100290B64 /* HexagonView.swift */,
+				2A5ACBEF1BFE058E00290B64 /* Main.storyboard */,
+				2A5ACBF21BFE058E00290B64 /* Assets.xcassets */,
+				2A5ACBF41BFE058E00290B64 /* LaunchScreen.storyboard */,
+				2A5ACBF71BFE058E00290B64 /* Info.plist */,
+			);
+			path = HoneycombView;
+			sourceTree = "<group>";
+		};
+		2A5ACBFF1BFE058E00290B64 /* HoneycombViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ACC001BFE058E00290B64 /* HoneycombViewTests.swift */,
+				2A5ACC021BFE058E00290B64 /* Info.plist */,
+			);
+			path = HoneycombViewTests;
+			sourceTree = "<group>";
+		};
+		2A5ACC0A1BFE058E00290B64 /* HoneycombViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A5ACC0B1BFE058E00290B64 /* HoneycombViewUITests.swift */,
+				2A5ACC0D1BFE058E00290B64 /* Info.plist */,
+			);
+			path = HoneycombViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5ACBE71BFE058E00290B64 /* HoneycombView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5ACC101BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombView" */;
+			buildPhases = (
+				2A5ACBE41BFE058E00290B64 /* Sources */,
+				2A5ACBE51BFE058E00290B64 /* Frameworks */,
+				2A5ACBE61BFE058E00290B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneycombView;
+			productName = HoneycombView;
+			productReference = 2A5ACBE81BFE058E00290B64 /* HoneycombView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A5ACBFB1BFE058E00290B64 /* HoneycombViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5ACC131BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombViewTests" */;
+			buildPhases = (
+				2A5ACBF81BFE058E00290B64 /* Sources */,
+				2A5ACBF91BFE058E00290B64 /* Frameworks */,
+				2A5ACBFA1BFE058E00290B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5ACBFE1BFE058E00290B64 /* PBXTargetDependency */,
+			);
+			name = HoneycombViewTests;
+			productName = HoneycombViewTests;
+			productReference = 2A5ACBFC1BFE058E00290B64 /* HoneycombViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A5ACC061BFE058E00290B64 /* HoneycombViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5ACC161BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombViewUITests" */;
+			buildPhases = (
+				2A5ACC031BFE058E00290B64 /* Sources */,
+				2A5ACC041BFE058E00290B64 /* Frameworks */,
+				2A5ACC051BFE058E00290B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5ACC091BFE058E00290B64 /* PBXTargetDependency */,
+			);
+			name = HoneycombViewUITests;
+			productName = HoneycombViewUITests;
+			productReference = 2A5ACC071BFE058E00290B64 /* HoneycombViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5ACBE01BFE058E00290B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Abhishek Shinde";
+				TargetAttributes = {
+					2A5ACBE71BFE058E00290B64 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2A5ACBFB1BFE058E00290B64 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2A5ACBE71BFE058E00290B64;
+					};
+					2A5ACC061BFE058E00290B64 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2A5ACBE71BFE058E00290B64;
+					};
+				};
+			};
+			buildConfigurationList = 2A5ACBE31BFE058E00290B64 /* Build configuration list for PBXProject "HoneycombView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5ACBDF1BFE058E00290B64;
+			productRefGroup = 2A5ACBE91BFE058E00290B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5ACBE71BFE058E00290B64 /* HoneycombView */,
+				2A5ACBFB1BFE058E00290B64 /* HoneycombViewTests */,
+				2A5ACC061BFE058E00290B64 /* HoneycombViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5ACBE61BFE058E00290B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5ACBF61BFE058E00290B64 /* LaunchScreen.storyboard in Resources */,
+				2A5ACBF31BFE058E00290B64 /* Assets.xcassets in Resources */,
+				2A5ACC1E1BFE0DA500290B64 /* HexagonCell.xib in Resources */,
+				2A5ACBF11BFE058E00290B64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACBFA1BFE058E00290B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACC051BFE058E00290B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5ACBE41BFE058E00290B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5ACBEE1BFE058E00290B64 /* ViewController.swift in Sources */,
+				2A5ACC1C1BFE080100290B64 /* HexagonView.swift in Sources */,
+				2A5ACC221BFF036A00290B64 /* DetailViewController.swift in Sources */,
+				2A5ACC1A1BFE07AB00290B64 /* HexagonCell.swift in Sources */,
+				2A5ACBEC1BFE058E00290B64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACBF81BFE058E00290B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5ACC011BFE058E00290B64 /* HoneycombViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5ACC031BFE058E00290B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5ACC0C1BFE058E00290B64 /* HoneycombViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A5ACBFE1BFE058E00290B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5ACBE71BFE058E00290B64 /* HoneycombView */;
+			targetProxy = 2A5ACBFD1BFE058E00290B64 /* PBXContainerItemProxy */;
+		};
+		2A5ACC091BFE058E00290B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5ACBE71BFE058E00290B64 /* HoneycombView */;
+			targetProxy = 2A5ACC081BFE058E00290B64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A5ACBEF1BFE058E00290B64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A5ACBF01BFE058E00290B64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A5ACBF41BFE058E00290B64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A5ACBF51BFE058E00290B64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A5ACC0E1BFE058E00290B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A5ACC0F1BFE058E00290B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5ACC111BFE058E00290B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoneycombView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A5ACC121BFE058E00290B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoneycombView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A5ACC141BFE058E00290B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoneycombViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneycombView.app/HoneycombView";
+			};
+			name = Debug;
+		};
+		2A5ACC151BFE058E00290B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoneycombViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneycombView.app/HoneycombView";
+			};
+			name = Release;
+		};
+		2A5ACC171BFE058E00290B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoneycombViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoneycombView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A5ACC181BFE058E00290B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoneycombViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claricetechnologies..HoneycombViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoneycombView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5ACBE31BFE058E00290B64 /* Build configuration list for PBXProject "HoneycombView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5ACC0E1BFE058E00290B64 /* Debug */,
+				2A5ACC0F1BFE058E00290B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5ACC101BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5ACC111BFE058E00290B64 /* Debug */,
+				2A5ACC121BFE058E00290B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A5ACC131BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5ACC141BFE058E00290B64 /* Debug */,
+				2A5ACC151BFE058E00290B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A5ACC161BFE058E00290B64 /* Build configuration list for PBXNativeTarget "HoneycombViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5ACC171BFE058E00290B64 /* Debug */,
+				2A5ACC181BFE058E00290B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5ACBE01BFE058E00290B64 /* Project object */;
+}

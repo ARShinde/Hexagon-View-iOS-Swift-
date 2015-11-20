@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lo9-TI-gJJ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="myK-ZW-euX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lo9-TI-gJJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="photo" id="KvO-AX-tBb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Zfx-NW-KKK" kind="relationship" relationship="rootViewController" id="W3Z-nL-30p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ko5-2W-Ypx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="201"/>
+        </scene>
+        <!--Hexagon View-->
+        <scene sceneID="shG-To-vbc">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Zfx-NW-KKK" customClass="ViewController" customModule="HoneycombView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Elj-7p-qO9"/>
+                        <viewControllerLayoutGuide type="bottom" id="bIC-lD-WHw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NiL-ey-2Dj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Ns-a2-Mrq">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Zfx-NW-KKK" id="S4G-rV-VPw"/>
+                                    <outlet property="delegate" destination="Zfx-NW-KKK" id="X4F-Fl-WJB"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Ns-a2-Mrq" firstAttribute="leading" secondItem="NiL-ey-2Dj" secondAttribute="leading" id="NPY-NU-88P"/>
+                            <constraint firstItem="5Ns-a2-Mrq" firstAttribute="top" secondItem="Elj-7p-qO9" secondAttribute="bottom" id="pMf-YB-kY8"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ns-a2-Mrq" secondAttribute="trailing" id="ttJ-zO-Yl1"/>
+                            <constraint firstItem="bIC-lD-WHw" firstAttribute="top" secondItem="5Ns-a2-Mrq" secondAttribute="bottom" id="zMO-Zf-vLM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hexagon View" id="kz0-pO-ot6"/>
+                    <connections>
+                        <outlet property="tableView" destination="5Ns-a2-Mrq" id="e7b-qW-tKE"/>
+                        <segue destination="eYJ-b8-oqq" kind="show" identifier="detailView" id="jPD-nA-f0G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BnH-fG-yLl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="201"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="peH-6V-rw1">
+            <objects>
+                <viewController id="eYJ-b8-oqq" customClass="DetailViewController" customModule="HoneycombView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Sm-Ve-Jth"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJ8-4H-dGL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="noA-rq-WwD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PP2-Rq-cL2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzv-Uk-BJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404" y="201"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo" width="500" height="500"/>
+    </resources>
+</document>
